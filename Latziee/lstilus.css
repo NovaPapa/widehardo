@@ -1,0 +1,143 @@
+        *{
+            padding:0;
+            margin:0;
+            box-sizing: border-box;
+        }
+        
+        body{
+            background:#eee;
+            font-family:sans-serif;
+        }
+        
+        .banner-area{
+            width:100%;
+            height:100vh;
+            background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(back-img.jpg);
+            background-size:cover;
+		}
+        .content-area{
+            height:100%;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+       .content{
+            text-align: center;
+        }
+        
+        .content h1{
+            font-size:80px;
+            color:#fff;
+        }
+        
+        .content p{
+            font-size:30px;
+            color:#ddd;
+        }
+        
+        .content .btnyoutube{
+            border:none;
+            outline:none;
+            padding:15px;
+            margin-top:100px;
+            border-radius: 4px;
+            color:#eee;
+            font-size: 18px;
+            cursor: pointer;    
+            background:#FF0000;             
+        }
+        .content .btntwitch{
+            border:none;
+            outline:none;
+            padding:15px;
+            margin-top:100px;
+            border-radius: 4px;
+            color:#eee;
+            font-size: 18px;
+            cursor: pointer;    
+            background:#6441a5;             
+        }
+        .content .btntwitter{
+            border:none;
+            outline:none;
+            padding:15px;
+            margin-top:100px;
+            border-radius: 4px;
+            color:#eee;
+            font-size: 18px;
+            cursor: pointer;    
+            background:#1DA1F2;             
+        }
+        .container {
+            width: 70%;
+            margin: 50px auto;
+            padding: 10px;
+}
+
+        .container .box {
+            width: 100%;
+            padding: 50px;
+            background: #fff;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px -3px rgba(0, 0, 0, .1);
+        }
+#footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: black;
+	color: white;
+	width: 1903px;
+}
+.rotate-center {
+	-webkit-animation: rotate-center 0.6s ease-in-out both;
+	        animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.shadow-drop-center {
+	-webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-center {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
